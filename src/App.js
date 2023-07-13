@@ -1,24 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+import React from 'react';
+import GlobalStyle from './globalStyles';
+import Home from './pages/HomePage/Home';
+import Products from './pages/Products/Products';
+import Services from './pages/Services/Services';
+import SignUp from './pages/SignUp/SignUp';
+import { BrowserRouter as Router, Switch, Route, Routes } from 'react-router-dom';
+import { Footer, Navbar } from './components';
+
+// import ScrollToTop from './components/ScrollToTop';
+
+
+function App(){
+  return(
+   <Router>
+    <GlobalStyle/>
+    <Navbar/>
+    {/* <Switch> */}
+    
+
+   
+    
+        
+        
+      {/* </Switch> */}
+      <Routes>
+      {/* <Route path='/' exact component={Home} /> */}
+      <Route path='/'   element={<Home/>} />
+      <Route path='/services' element={<Services/>} />
+      <Route path='/products' element={<Products/>} />
+      <Route path='/sign-up' element={<SignUp/>} />
+      
+      </Routes>
+      <Footer/>
+   </Router>
+
+
   );
 }
 
