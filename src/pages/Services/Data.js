@@ -1,30 +1,34 @@
 export const homeObjOne = {
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
-  topLine: 'Exclusive Access',
-  headline: 'Unlimited Transactions with zero fees',
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: 'Website Development',
+  headline: 'Lead Generation web for online businesses',
   description:
-    'Get access to our exclusive diamond card that allows you to  send unlimited transactions without getting charged any fees',
+    'We design and implement responsive, fast, and user-friendly websites application and landing pages to enhance and unlock the potential of your businesses. Whether you need to boost conversion or improve the brand awareness. We can develop a great website to help you accomplish your goals.',
   buttonLabel: 'Get Started',
   imgStart: '',
-  img: require('../../images/svg-1.svg'),
-  alt: 'Credit Card'
+  img: require('../../images/digital-marketing2.png'),
+  alt: 'Image'
 };
 
 export const homeObjTwo = {
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
-  topLine: '100% Secure',
-  headline: 'Stay protected 24/7 anywhere anytime',
-  description:
-    'We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime',
-  buttonLabel: 'Learn More',
-  imgStart: '',
-  img: require('../../images/svg-1.svg'),
-  alt: 'Vault'
-};
+  lightBg:true,
+  primary:true,
+  //  lightBg:false, 
+   imgStart:true, 
+   lightTopLine:true, 
+   lightTextDesc:false, 
+   buttonLabel:'Get Started', 
+   description: 'We help business owners increase thier  revenue with our digital marketing experience.', 
+   headline:'Digital marketing ', 
+   lightText: false,
+   topLine: ' Boost your revenue with our digital marketing experience',
+   img: require('../../images/digital-marketing2.png'),
+
+   alt:'Image',
+   start:''
+}; 
 
 export const homeObjThree = {
   lightBg: true,

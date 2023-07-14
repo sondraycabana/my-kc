@@ -27,10 +27,10 @@ function Pricing() {
         <PricingWrapper>
           <PricingHeading>Our Services</PricingHeading>
           <PricingContainer>
-            <PricingCard to='/sign-up'>
+            <PricingCard to='/products'>
               <PricingCardInfo>
                 <PricingCardIcon>
-                  <GiRock />
+                  <GiRock  color='12355b'/>
                 </PricingCardIcon>
                 <PricingCardPlan>Starter Pack</PricingCardPlan>
                 <PricingCardCost>$99.99</PricingCardCost>
@@ -43,10 +43,10 @@ function Pricing() {
                 <Button primary>Choose Plan</Button>
               </PricingCardInfo>
             </PricingCard>
-            <PricingCard to='/sign-up'>
+            <PricingCard to='/products'>
               <PricingCardInfo>
                 <PricingCardIcon>
-                  <GiCrystalBars />
+                  <GiCrystalBars color='12355b'/>
                 </PricingCardIcon>
                 <PricingCardPlan>Gold Rush</PricingCardPlan>
                 <PricingCardCost>$299.99</PricingCardCost>
@@ -59,10 +59,10 @@ function Pricing() {
                 <Button primary>Choose Plan</Button>
               </PricingCardInfo>
             </PricingCard>
-            <PricingCard to='/sign-up'>
+            <PricingCard to='/products'>
               <PricingCardInfo>
                 <PricingCardIcon>
-                  <GiCutDiamond />
+                  <GiCutDiamond color='12355b'/>
                 </PricingCardIcon>
                 <PricingCardPlan>Diamond Kings</PricingCardPlan>
                 <PricingCardCost>$999.99</PricingCardCost>

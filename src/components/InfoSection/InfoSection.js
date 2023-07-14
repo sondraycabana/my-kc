@@ -22,6 +22,7 @@ function InfoSection({
   lightTextDesc,
   headline,
   description,
+  description2,
   buttonLabel,
   img,
   alt,
@@ -38,7 +39,8 @@ function InfoSection({
                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-                <Link to='/sign-up'>
+                <Subtitle lightTextDesc={lightTextDesc}>{description2}</Subtitle>
+                <Link to='/products'>
                   <Button big fontBig primary={primary}>
                     {buttonLabel}
                   </Button>

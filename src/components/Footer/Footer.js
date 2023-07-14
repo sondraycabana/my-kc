@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from '../../globalStyles';
+import Logo from '../../../src/images/Kct-logo2.png'
 import {
   FaFacebook,
   FaInstagram,
@@ -79,10 +80,10 @@ function Footer() {
       <SocialMedia>
         <SocialMediaWrap>
           <SocialLogo to='/'>
-            <SocialIcon />
-            ULTRA
+            
+            <img src={Logo} height={40} />
           </SocialLogo>
-          <WebsiteRights>ULTRA © 2020</WebsiteRights>
+          <WebsiteRights>KCT © 2023</WebsiteRights>
           <SocialIcons>
             <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
               <FaFacebook />

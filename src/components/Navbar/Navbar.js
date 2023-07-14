@@ -1,6 +1,7 @@
 import React,{useState, useEffect} from 'react'
 import {FaBars, FaTimes} from 'react-icons/fa';
 import { Button } from '../../globalStyles';
+import Logo from '../../../src/images/Kct-logo2.png'
 import {Nav, NavbarContainer, NavLogo,
   NavIcon,
   MobileIcon, 
@@ -37,11 +38,9 @@ window.addEventListener('resize', showButton);
       <Nav >
           <NavbarContainer>
             <NavLogo to="/">
-                
-              <NavIcon>
-                
-              </NavIcon>
-              KCT
+            <img src={Logo} height={40} />
+              
+              
             </NavLogo>
             <MobileIcon onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
@@ -65,9 +64,9 @@ window.addEventListener('resize', showButton);
                       </NavLinks>
                   </NavItem>
                     <NavItemBtn>
-                      {button ? ( <NavBtnLink to="/sign-up">
+                      {button ? ( <NavBtnLink to="/products">
                         <Button primary>Sign Up</Button></NavBtnLink> ):
-                        <NavBtnLink to="/sign-up"><Button  fontBig primary>sign-up</Button>
+                        <NavBtnLink to="/products"><Button  fontBig primary>sign-up</Button>
                         </NavBtnLink>
                         }
                     </NavItemBtn>
