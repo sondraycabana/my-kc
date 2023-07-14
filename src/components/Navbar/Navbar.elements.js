@@ -48,6 +48,7 @@ export const MobileIcon = styled.div`
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
+    background: #adb4bf;
   }
 `;
 
@@ -67,7 +68,7 @@ export const NavMenu = styled.ul`
     left: ${({ click }) => (click ? 0 : '-100%')};
     opacity: 1;
     transition: all 0.5s ease;
-    background: #101522;
+    background: #adb4bf;
   }
 `;
 
