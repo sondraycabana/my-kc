@@ -1,6 +1,7 @@
 import React from 'react';
 import { InfoSection, Pricing } from '../../components';
-import { homeObjOne, homeObjTwo } from './Data';
+import { homeObjFour, homeObjOne, homeObjThree, homeObjTwo, 
+  homeObjFive, homeObjSix, homeObjSeven, homeObjEight } from './Data';
 
 
 function Services() {
@@ -9,6 +10,13 @@ function Services() {
    
       <InfoSection {...homeObjOne} />
       <InfoSection {...homeObjTwo} />
+      <InfoSection {...homeObjFour} />
+      <InfoSection {...homeObjThree} />
+      <InfoSection {...homeObjFive} />
+      <InfoSection {...homeObjSix} />
+      <InfoSection {...homeObjSeven} />
+      <InfoSection {...homeObjEight} />
+      
     </>
   );
 }
